@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -eu
+
+DIR="$(dirname -- "${0}")"
+
+exec node --require "${DIR}/babel-register" \
+    "${DIR}/src/index.ts" \
+    "${@}"

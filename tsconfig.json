@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "alwaysStrict": true,
+    "strictPropertyInitialization": false,
+    "strict": true,
+    "noEmit": true,
+    "jsx": "react",
+    "lib": ["ES2015", "DOM", "ES2017.object", "es2020.string"],
+    "target": "esnext",
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true
+  }
+}
+
